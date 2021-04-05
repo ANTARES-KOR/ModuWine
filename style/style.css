@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+@import url("./main-style.css");
+/* components */
+@import url("./components/header.css");
+@import url("./components/button.css");
+@import url("./components/footer.css");
+/* pages */
+@import url("./pages/index.css");
