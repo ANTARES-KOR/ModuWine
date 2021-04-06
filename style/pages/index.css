@@ -70,7 +70,7 @@ section {
   margin-top: var(--margin-vertical);
   box-sizing: border-box;
   width: 100%;
-  height: 300px;
+  height: 400px;
   padding: 50px 20px;
   border-radius: 20px;
 
@@ -95,7 +95,7 @@ section {
 }
 
 .email-form {
-  height: 100px;
+  height: 200px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -117,6 +117,7 @@ section {
   outline: none;
 }
 .submit-btn {
+  margin-top: -20px;
   right: 5px;
   width: 120px;
   height: 40px;
@@ -130,4 +131,30 @@ section {
 }
 .submit-btn:focus {
   outline: none;
+}
+
+label > span {
+  color: white;
+  text-align: center;
+  font-size: 13px;
+}
+
+.checklist {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.checklist > label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.checklist > label > input {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
 }
